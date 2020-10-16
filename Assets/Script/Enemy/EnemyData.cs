@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Tower Data", menuName = "Tower Data")]
-public class TowerData : ScriptableObject
+[CreateAssetMenu(fileName = "New Enemy Data", menuName = "Enemy Data")]
+public class EnemyData : ScriptableObject
 {
     public int maxHP;
-    public float range;
+    public float range, attackDelay;
     public int strength, magic, agility;
     public Sprite sprite;
 }

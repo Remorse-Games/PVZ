@@ -11,6 +11,16 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     private Camera mainCamera;
     private void Start()
     {
+        if (prefabDragged == null)
+        {
+            Debug.LogWarning("Var prefabDragged is null! Assign in inspector!");
+            prefabDragged = new GameObject();
+        }
+        if (prefabTower == null)
+        {
+            Debug.LogWarning("Var prefabTower is null! Assign in inspector!");
+            prefabTower = new GameObject();
+        }
         mainCamera = Camera.main;
     }
     public void OnBeginDrag(PointerEventData eventData)
