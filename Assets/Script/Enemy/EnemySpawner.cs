@@ -9,7 +9,7 @@ public class EnemySpawner : MonoBehaviour
     public float spawnDelay = 1f; //spawnDelay=1/x secs
     private void Start()
     {
-        StartSpawn(10);
+        StartSpawn(7);
     }
     private void StartSpawn(int spawnAmount)
     {
