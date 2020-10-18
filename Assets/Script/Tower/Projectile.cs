@@ -12,6 +12,7 @@ public class Projectile : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        Destroy(gameObject, 100f);
     }
     public void SetTarget(Enemy enemy, int str, int mgc)
     {
@@ -24,15 +25,31 @@ public class Projectile : MonoBehaviour
     {
         if (attacking)
         {
+            if (target == null)
+            {
+                attacking = false;
+                return;
+            }
             rb.velocity = (Vector2)(target.transform.position - transform.position).normalized * speed;
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.Equals(target.gameObject))
+        if (attacking)
         {
-            target.TakeDamage(strength);
-            Destroy(gameObject);
+            if (collision.gameObject.Equals(target.gameObject))
+            {
+                target.TakeDamage(strength);
+                Destroy(gameObject);
+            }
+        }
+        else
+        {
+            if (collision.CompareTag("Enemy"))
+            {
+                collision.GetComponent<Enemy>().TakeDamage(strength);
+                Destroy(gameObject);
+            }
         }
     }
 }
