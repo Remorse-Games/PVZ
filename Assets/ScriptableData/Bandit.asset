@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 10
   range: 0
-  strength: 0
+  strength: 1
   magic: 0
   agility: 1
   sprite: {fileID: 0}

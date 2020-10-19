@@ -1,16 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Tower : MonoBehaviour
 {
     public TowerData towerData;
+    public Slider sliderHP;
     private TargetFinder targetFinder;
     private int currHP;
     private Coroutine attacking;
     private void Start()
     {
         currHP = towerData.maxHP;
+        sliderHP.maxValue = towerData.maxHP;
+        sliderHP.value = towerData.maxHP;
         GetComponent<SpriteRenderer>().sprite = towerData.sprite;
         targetFinder = GetComponentInChildren<TargetFinder>();
         targetFinder.SetRange(towerData.range);
@@ -40,9 +44,11 @@ public class Tower : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currHP -= damage;
+        sliderHP.value = currHP;
         if (currHP <= 0)
         {
             //ded
+            Destroy(gameObject);
         }
     }
 }

@@ -8,9 +8,10 @@ public class EnemySpawner : MonoBehaviour
     private GameObject enemyPrefab;
     public float spawnDelay = 1f; //spawnDelay=1/x secs
     public List<Enemy.MovementData> path;
+    public int enemyCount = 10;
     private void Start()
     {
-        StartSpawn(7);
+        StartSpawn(enemyCount);
     }
     private void StartSpawn(int spawnAmount)
     {

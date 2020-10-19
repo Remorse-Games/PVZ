@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   range: 1.5
-  attackDelay: 1
-  strength: 6
+  strength: 1
   magic: 2
   agility: 4
   sprite: {fileID: 4358988890827188596, guid: 82c65e2bb7b11ba4d9e476b8bd130cb3, type: 3}

@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 2921350228144802593}
   - component: {fileID: 1217608820227958973}
   - component: {fileID: 1217608820227959106}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -172,6 +172,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85ceadc754f867644a450a0c29739436, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  towerMask:
+    serializedVersion: 2
+    m_Bits: 256
   enemyData: {fileID: 11400000, guid: 42d6c45d12e4e71468b324cb5f24c872, type: 2}
   sliderHP: {fileID: 7148667444820614257}
 --- !u!50 &1217608820227958973

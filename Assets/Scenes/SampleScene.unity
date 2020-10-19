@@ -417,6 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towerData: {fileID: 11400000, guid: a26a3ee35b5643644b28978a25543fb0, type: 2}
+  sliderHP: {fileID: 0}
   projectilePrefab: {fileID: 4314025870252121414, guid: 5fd2a94ae6b9119439523bec8b1501f4,
     type: 3}
 --- !u!1001 &459001044
@@ -426,6 +427,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1777510181, guid: 08a65d04003e32047b933b68492a3da2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777510181, guid: 08a65d04003e32047b933b68492a3da2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8395904234342706520, guid: 08a65d04003e32047b933b68492a3da2,
         type: 3}
       propertyPath: m_Name
@@ -2802,9 +2811,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -346.25, y: -171.99}
-  m_SizeDelta: {x: -700.0025, y: -343.88754}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 53.25, y: 53.009995}
+  m_SizeDelta: {x: 98.9975, y: 106.11246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864625845
 MonoBehaviour:
