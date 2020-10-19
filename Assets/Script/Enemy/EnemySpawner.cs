@@ -7,6 +7,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private GameObject enemyPrefab;
     public float spawnDelay = 1f; //spawnDelay=1/x secs
+    public List<Enemy.MovementData> path;
     private void Start()
     {
         StartSpawn(7);
@@ -19,8 +20,8 @@ public class EnemySpawner : MonoBehaviour
     {
         for (int i = 0; i < spawnAmount; i++)
         {
-            Rigidbody2D rb = Instantiate(enemyPrefab, transform.position, Quaternion.identity).GetComponent<Rigidbody2D>();
-            rb.velocity = Vector2.right;
+            Enemy enemy = Instantiate(enemyPrefab, transform.position, Quaternion.identity).GetComponent<Enemy>();
+            enemy.SetPath(path);
             yield return new WaitForSeconds(spawnDelay);
         }
     }
