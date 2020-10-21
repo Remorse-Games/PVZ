@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   range: 5
-  strength: 6
+  strength: 1
   magic: 2
   agility: 1
   sprite: {fileID: -8915305049588994544, guid: 792d0ad4824bbc84f8cc16fa0c34cefe, type: 3}
