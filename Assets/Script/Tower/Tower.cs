@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class Tower : MonoBehaviour
 {
     public TowerData towerData;
-    public Slider sliderHP;
+    private Slider sliderHP;
     private TargetFinder targetFinder;
     private int currHP;
     private Coroutine attacking;
     private void Start()
     {
         currHP = towerData.maxHP;
+        sliderHP = GetComponentInChildren<Slider>();
         sliderHP.maxValue = towerData.maxHP;
         sliderHP.value = towerData.maxHP;
         GetComponent<SpriteRenderer>().sprite = towerData.sprite;

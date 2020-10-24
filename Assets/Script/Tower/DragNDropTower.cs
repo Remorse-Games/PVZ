@@ -9,6 +9,7 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     private GameObject prefabDragged, prefabTower;
     private GameObject towerDragged;
     private Camera mainCamera;
+    public TowerData data;
     private void Start()
     {
         if (prefabDragged == null)
@@ -26,6 +27,7 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     public void OnBeginDrag(PointerEventData eventData)
     {
         towerDragged = Instantiate(prefabDragged, mainCamera.ScreenToWorldPoint(eventData.position), Quaternion.identity);
+        towerDragged.GetComponent<SpriteRenderer>().sprite = data.sprite;
     }
     public void OnDrag(PointerEventData eventData)
     {
@@ -34,7 +36,16 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     }
     public void OnEndDrag(PointerEventData eventData)
     {
-        Instantiate(prefabTower, towerDragged.transform.position, Quaternion.identity);
+        GameObject tower;
+        tower = Instantiate(prefabTower, towerDragged.transform.position, Quaternion.identity);
+        if (data.isRanged)
+        {
+            tower.AddComponent<TowerRanged>().towerData = data;
+        }
+        else
+        {
+            tower.AddComponent<TowerMelee>().towerData = data;
+        }
         Destroy(towerDragged);
         Destroy(transform.parent.gameObject);
     }

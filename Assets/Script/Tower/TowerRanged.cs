@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class TowerRanged : Tower
 {
-    [SerializeField]
-    private GameObject projectilePrefab;
     protected override void Attack(Enemy target)
     {
-        Projectile projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity).GetComponent<Projectile>();
+        Projectile projectile = Instantiate(towerData.projectile, transform.position, Quaternion.identity).GetComponent<Projectile>();
         projectile.SetTarget(target, towerData.strength, towerData.magic);
     }
 }
