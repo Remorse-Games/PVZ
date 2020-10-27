@@ -441,7 +441,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8395904234342706522}
   - component: {fileID: 8395904234342706521}
-  - component: {fileID: 1876429630}
   - component: {fileID: -4415063339425920925}
   - component: {fileID: 1876429629}
   m_Layer: 8
@@ -518,20 +517,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1876429630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8395904234342706520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57740a3b32dedb94bb21b398bb79c3e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  towerData: {fileID: 11400000, guid: 6ce41d46d4ee9b7469011a7c86ba0597, type: 2}
-  sliderHP: {fileID: 2005774044}
 --- !u!50 &-4415063339425920925
 Rigidbody2D:
   serializedVersion: 4

@@ -10,4 +10,5 @@ public class TowerData : ScriptableObject
     public int strength, magic, agility = 1;
     public Sprite sprite;
     public bool isRanged;
+    public GameObject projectile;
 }

@@ -123,8 +123,12 @@ public class Enemy : MonoBehaviour
         sliderHP.value = currHP;
         if (currHP <= 0)
         {
-            //ded
-            Destroy(gameObject);
+            OnDead();
         }
+    }
+    private void OnDead()
+    {
+        CoinManager.instance.Earn(enemyData.money);
+        Destroy(gameObject);
     }
 }

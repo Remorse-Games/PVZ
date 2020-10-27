@@ -9,4 +9,5 @@ public class EnemyData : ScriptableObject
     public float range = 1;
     public int strength, magic, agility = 1;
     public Sprite sprite;
+    public int money = 2;
 }
