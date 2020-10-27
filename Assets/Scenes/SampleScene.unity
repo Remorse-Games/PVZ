@@ -175,7 +175,7 @@ MonoBehaviour:
     type: 3}
   prefabTower: {fileID: 8395904234342706520, guid: 08a65d04003e32047b933b68492a3da2,
     type: 3}
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: 6ce41d46d4ee9b7469011a7c86ba0597, type: 2}
 --- !u!114 &83433052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3077,7 +3077,7 @@ MonoBehaviour:
     type: 3}
   prefabTower: {fileID: 8395904234342706520, guid: 08a65d04003e32047b933b68492a3da2,
     type: 3}
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: a26a3ee35b5643644b28978a25543fb0, type: 2}
 --- !u!114 &1519927901
 MonoBehaviour:
   m_ObjectHideFlags: 0
