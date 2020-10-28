@@ -21,3 +21,4 @@ MonoBehaviour:
   isRanged: 1
   projectile: {fileID: 4314025870252121414, guid: 5fd2a94ae6b9119439523bec8b1501f4,
     type: 3}
+  upgradeCost: 10
