@@ -49,5 +49,4 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         Destroy(towerDragged);
         Destroy(transform.parent.gameObject);
     }
-
 }

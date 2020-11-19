@@ -6,6 +6,9 @@ public class TowerMelee : Tower
 {
     protected override void Attack(Enemy target)
     {
-        target.TakeDamage(towerData.strength);
+        if (target != null)
+        {
+            target.TakeDamage(towerData.currStrength);
+        }
     }
 }
