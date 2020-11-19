@@ -27,14 +27,22 @@ public class Enemy : MonoBehaviour
     private int currHP;
     private Rigidbody2D rb;
     private Vector2 offset;
+    private EnemySpawner spawner;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         offset = new Vector2(UnityEngine.Random.Range(-0.1f, 0.1f), UnityEngine.Random.Range(-0.1f, 0.1f));
     }
-    private void Start()
+    public void SetEnemy(EnemyData data, List<MovementData> path, EnemySpawner spawner)
     {
-        //transform.position += (Vector3)offset;
+        SetData(data);
+        SetPath(path);
+        this.spawner = spawner;
+    }
+    private void SetData(EnemyData data)
+    {
+        enemyData = data;
+        GetComponent<SpriteRenderer>().sprite = enemyData.sprite;
         currHP = enemyData.maxHP;
         sliderHP.maxValue = enemyData.maxHP;
         sliderHP.value = enemyData.maxHP;
@@ -129,6 +137,7 @@ public class Enemy : MonoBehaviour
     private void OnDead()
     {
         CoinManager.instance.Earn(enemyData.money);
+        spawner.RemoveEnemy(this);
         Destroy(gameObject);
     }
 }

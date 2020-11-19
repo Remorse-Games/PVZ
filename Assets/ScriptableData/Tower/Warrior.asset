@@ -17,6 +17,9 @@ MonoBehaviour:
   strength: 1
   magic: 2
   agility: 4
+  currStrength: 1
+  currMagic: 2
+  currAgility: 4
   sprite: {fileID: 4358988890827188596, guid: 82c65e2bb7b11ba4d9e476b8bd130cb3, type: 3}
   isRanged: 0
   projectile: {fileID: 0}

@@ -47,6 +47,6 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             tower.AddComponent<TowerMelee>().towerData = data;
         }
         Destroy(towerDragged);
-        Destroy(transform.parent.gameObject);
+        //Destroy(transform.parent.gameObject);
     }
 }
