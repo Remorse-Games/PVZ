@@ -7,6 +7,6 @@ public class TowerRanged : Tower
     protected override void Attack(Enemy target)
     {
         Projectile projectile = Instantiate(towerData.projectile, transform.position, Quaternion.identity).GetComponent<Projectile>();
-        projectile.SetTarget(target, towerData.strength, towerData.magic);
+        projectile.SetTarget(target, towerData.currStrength, towerData.currMagic);
     }
 }

@@ -22,3 +22,5 @@ MonoBehaviour:
   currAgility: 4
   sprite: {fileID: 4358988890827188596, guid: 82c65e2bb7b11ba4d9e476b8bd130cb3, type: 3}
   isRanged: 0
+  projectile: {fileID: 0}
+  upgradeCost: 10
