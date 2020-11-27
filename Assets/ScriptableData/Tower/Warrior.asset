@@ -20,7 +20,11 @@ MonoBehaviour:
   currStrength: 1
   currMagic: 2
   currAgility: 4
+<<<<<<< Updated upstream
   sprite: {fileID: 4358988890827188596, guid: 82c65e2bb7b11ba4d9e476b8bd130cb3, type: 3}
+=======
+  sprite: {fileID: 21300000, guid: d7efdbaf033689344ae74f9dc83c409c, type: 3}
+>>>>>>> Stashed changes
   isRanged: 0
   projectile: {fileID: 0}
   upgradeCost: 10
