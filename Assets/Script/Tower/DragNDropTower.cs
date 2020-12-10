@@ -11,7 +11,7 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     private GameObject towerDragged;
     private Camera mainCamera;
     public TowerData data; 
-    public float cooldown = 10f;
+    float cooldown = 10f;
     public Image icon;
     private bool canCast = true;
     private void DisableButton()
@@ -35,6 +35,7 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     private void Start()
     {
         icon = GetComponent<Image>();
+        cooldown = data.cooldown;
         if (prefabDragged == null)
         {
             Debug.LogWarning("Var prefabDragged is null! Assign in inspector!");
