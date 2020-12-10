@@ -111,16 +111,16 @@ public class Enemy : MonoBehaviour
         switch (direction)
         {
             case MovementDirection.Up:
-                rb.velocity = Vector2.up;
+                rb.velocity = Vector2.up * enemyData.speed;
                 break;
             case MovementDirection.Left:
-                rb.velocity = Vector2.left;
+                rb.velocity = Vector2.left * enemyData.speed;
                 break;
             case MovementDirection.Right:
-                rb.velocity = Vector2.right;
+                rb.velocity = Vector2.right * enemyData.speed;
                 break;
             case MovementDirection.Down:
-                rb.velocity = Vector2.down;
+                rb.velocity = Vector2.down * enemyData.speed;
                 break;
         }
     }

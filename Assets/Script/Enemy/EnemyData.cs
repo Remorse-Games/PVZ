@@ -8,6 +8,7 @@ public class EnemyData : ScriptableObject
     public int maxHP = 100;
     public float range = 1;
     public int strength, magic, agility = 1;
+    public float speed;
     public Sprite sprite;
     public int money = 2;
 }

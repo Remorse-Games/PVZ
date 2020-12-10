@@ -23,7 +23,7 @@ public class DamageAll : BaseSpell
             Enemy enemy = collider.GetComponent<Enemy>();
             if (enemy != null)
             {
-                enemy.TakeDamage(damage);
+                enemy.TakeDamage(enemy.enemyData.maxHP / 2);
             }
         }
     }
