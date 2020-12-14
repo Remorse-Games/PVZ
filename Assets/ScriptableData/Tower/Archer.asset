@@ -26,3 +26,4 @@ MonoBehaviour:
     type: 3}
   upgradeCost: 10
   cooldown: 1
+  spawnSfx: {fileID: 8300000, guid: 02db31783cf29e347aebb3ca878da63b, type: 3}

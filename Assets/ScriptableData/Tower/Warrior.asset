@@ -25,3 +25,4 @@ MonoBehaviour:
   projectile: {fileID: 0}
   upgradeCost: 10
   cooldown: 2
+  spawnSfx: {fileID: 8300000, guid: 0ae6b21a0bfb8d64ebb5ff6eaeb928af, type: 3}

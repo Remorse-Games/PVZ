@@ -68,6 +68,8 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         if (towerDragged == null) return;
         GameObject tower;
         tower = Instantiate(prefabTower, towerDragged.transform.position, Quaternion.identity);
+        tower.GetComponent<AudioSource>().clip = data.spawnSfx;
+        tower.GetComponent<AudioSource>().Play();
         if (data.isRanged)
         {
             tower.AddComponent<TowerRanged>().towerData = data;
