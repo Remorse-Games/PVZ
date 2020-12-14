@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: 993484d7c3edf3a49b31f17f481be1af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7711734814022111706
+    second: Spritesheet_Kujang_Idle_0
+  - first:
+      213: 1291264941981768298
+    second: Spritesheet_Kujang_Idle_1
+  - first:
+      213: 1772275448288462775
+    second: Spritesheet_Kujang_Idle_2
+  - first:
+      213: -3366507108591426678
+    second: Spritesheet_Kujang_Idle_3
+  - first:
+      213: 5023497360030067096
+    second: Spritesheet_Kujang_Idle_4
+  - first:
+      213: -4710062213797027638
+    second: Spritesheet_Kujang_Idle_5
+  - first:
+      213: -88855414744001902
+    second: Spritesheet_Kujang_Idle_6
+  - first:
+      213: 1305456552544032002
+    second: Spritesheet_Kujang_Idle_7
+  - first:
+      213: 1046390084925615896
+    second: Spritesheet_Kujang_Idle_8
+  - first:
+      213: 7556438736186438415
+    second: Spritesheet_Kujang_Idle_9
+  - first:
+      213: -2824679429096681119
+    second: Spritesheet_Kujang_Idle_10
+  - first:
+      213: 8364630834293301136
+    second: Spritesheet_Kujang_Idle_11
+  - first:
+      213: -5057465369304433661
+    second: Spritesheet_Kujang_Idle_12
+  - first:
+      213: -4684874469547436183
+    second: Spritesheet_Kujang_Idle_13
+  - first:
+      213: -8572708188284271372
+    second: Spritesheet_Kujang_Idle_14
+  - first:
+      213: 9032883122023377115
+    second: Spritesheet_Kujang_Idle_15
+  - first:
+      213: -6029790316792865495
+    second: Spritesheet_Kujang_Idle_16
+  - first:
+      213: 6711597979761141362
+    second: Spritesheet_Kujang_Idle_17
+  - first:
+      213: 7995876764744546162
+    second: Spritesheet_Kujang_Idle_18
+  - first:
+      213: -3633609331878312575
+    second: Spritesheet_Kujang_Idle_19
+  - first:
+      213: -2737175415382953587
+    second: Spritesheet_Kujang_Idle_20
+  - first:
+      213: -586169417439454773
+    second: Spritesheet_Kujang_Idle_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Kujang_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 419
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ee2309b0a6af490800000000000000
+      internalID: -7711734814022111706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Kujang_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 456
+        width: 419
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a1db19f9e7be110800000000000000
+      internalID: 1291264941981768298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Kujang_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 456
+        width: 419
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7416b5123689810800000000000000
+      internalID: 1772275448288462775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Kujang_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 456
+        width: 419
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83a49a0f93c741d0800000000000000
+      internalID: -3366507108591426678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Kujang_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 456
+        width: 419
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89964babb3c07b540800000000000000
+      internalID: 5023497360030067096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Kujang_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 456
+        width: 419
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac063ac1f5f72aeb0800000000000000
+      internalID: -4710062213797027638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Kujang_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 456
+        width: 419
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29250d7987254cef0800000000000000
+      internalID: -88855414744001902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Kujang_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 419
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205d71461d9ed1210800000000000000
+      internalID: 1305456552544032002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Kujang_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 419
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f6b7cfc36858e00800000000000000
+      internalID: 1046390084925615896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Kujang_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 0
+        width: 419
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03f46daefcddd860800000000000000
+      internalID: 7556438736186438415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

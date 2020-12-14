@@ -244,7 +244,6 @@ MonoBehaviour:
   prefabTower: {fileID: 8395904234342706520, guid: 08a65d04003e32047b933b68492a3da2,
     type: 3}
   data: {fileID: 11400000, guid: 6ce41d46d4ee9b7469011a7c86ba0597, type: 2}
-  cooldown: 10
   icon: {fileID: 0}
 --- !u!1 &8532858722673388020
 GameObject:
@@ -851,7 +850,6 @@ MonoBehaviour:
   prefabTower: {fileID: 8395904234342706520, guid: 08a65d04003e32047b933b68492a3da2,
     type: 3}
   data: {fileID: 11400000, guid: a26a3ee35b5643644b28978a25543fb0, type: 2}
-  cooldown: 10
   icon: {fileID: 0}
 --- !u!1 &8532858723916161611
 GameObject:
