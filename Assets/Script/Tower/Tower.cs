@@ -13,10 +13,13 @@ public class Tower : MonoBehaviour
     private int currHP;
     private Coroutine attacking;
     private Camera mainCam;
+    private Animator animator;
     
     private void Start()
     {
         towerData.Init();
+        animator = GetComponent<Animator>();
+        animator.runtimeAnimatorController = towerData.animatorController;
         mainCam = Camera.main;
         currHP = towerData.maxHP;
         button = GetComponentInChildren<Button>();
@@ -46,6 +49,7 @@ public class Tower : MonoBehaviour
         while (true)
         {
             Attack(targetFinder.GetTarget<Enemy>());
+            if (animator != null) animator.SetTrigger("Attack");
             yield return new WaitForSeconds(delayTime);
         }
     }

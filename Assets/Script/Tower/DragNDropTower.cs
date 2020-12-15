@@ -12,7 +12,7 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     private Camera mainCamera;
     public TowerData data; 
     float cooldown = 10f;
-    public Image icon;
+    private Image icon;
     private bool canCast = true;
     private void DisableButton()
     {

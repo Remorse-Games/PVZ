@@ -216,10 +216,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4358988890827188596, guid: 82c65e2bb7b11ba4d9e476b8bd130cb3,
+  m_Sprite: {fileID: 1291264941981768298, guid: 993484d7c3edf3a49b31f17f481be1af,
     type: 3}
   m_Type: 3
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -244,7 +244,6 @@ MonoBehaviour:
   prefabTower: {fileID: 8395904234342706520, guid: 08a65d04003e32047b933b68492a3da2,
     type: 3}
   data: {fileID: 11400000, guid: 6ce41d46d4ee9b7469011a7c86ba0597, type: 2}
-  icon: {fileID: 0}
 --- !u!1 &8532858722673388020
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,10 +591,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8915305049588994544, guid: 792d0ad4824bbc84f8cc16fa0c34cefe,
+  m_Sprite: {fileID: -2836791107545517532, guid: 3d65040103ee35346a52395ae02e5177,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -615,7 +614,7 @@ GameObject:
   - component: {fileID: 8532858723466543305}
   - component: {fileID: 8532858723466543304}
   m_Layer: 5
-  m_Name: PanelArcher
+  m_Name: Patrem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -822,10 +821,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8915305049588994544, guid: 792d0ad4824bbc84f8cc16fa0c34cefe,
+  m_Sprite: {fileID: -2836791107545517532, guid: 3d65040103ee35346a52395ae02e5177,
     type: 3}
   m_Type: 3
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -849,8 +848,7 @@ MonoBehaviour:
     type: 3}
   prefabTower: {fileID: 8395904234342706520, guid: 08a65d04003e32047b933b68492a3da2,
     type: 3}
-  data: {fileID: 11400000, guid: a26a3ee35b5643644b28978a25543fb0, type: 2}
-  icon: {fileID: 0}
+  data: {fileID: 11400000, guid: 192097e0c9a12cb418b4c882c8355fee, type: 2}
 --- !u!1 &8532858723916161611
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,7 +861,7 @@ GameObject:
   - component: {fileID: 8532858723916161614}
   - component: {fileID: 8532858723916161613}
   m_Layer: 5
-  m_Name: PanelWarrior
+  m_Name: Kujang
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -991,10 +989,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4358988890827188596, guid: 82c65e2bb7b11ba4d9e476b8bd130cb3,
+  m_Sprite: {fileID: 1291264941981768298, guid: 993484d7c3edf3a49b31f17f481be1af,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1

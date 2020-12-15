@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: e3eaa4410710a884cbbb262b677eb96d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4392096630394967606
+    second: Spritesheet_Patrem_Attack_0
+  - first:
+      213: 5649795736191465777
+    second: Spritesheet_Patrem_Attack_1
+  - first:
+      213: 6297757965357597232
+    second: Spritesheet_Patrem_Attack_2
+  - first:
+      213: 1393672118857182474
+    second: Spritesheet_Patrem_Attack_3
+  - first:
+      213: -5176534479709500751
+    second: Spritesheet_Patrem_Attack_4
+  - first:
+      213: -8844528766359163219
+    second: Spritesheet_Patrem_Attack_5
+  - first:
+      213: 4672792729408749377
+    second: Spritesheet_Patrem_Attack_6
+  - first:
+      213: -8658670556972119750
+    second: Spritesheet_Patrem_Attack_7
+  - first:
+      213: 808827527034921013
+    second: Spritesheet_Patrem_Attack_8
+  - first:
+      213: -7599668382241284537
+    second: Spritesheet_Patrem_Attack_9
+  - first:
+      213: -8437698403872660058
+    second: Spritesheet_Patrem_Attack_10
+  - first:
+      213: 6110781175930444074
+    second: Spritesheet_Patrem_Attack_11
+  - first:
+      213: 1371313298205779328
+    second: Spritesheet_Patrem_Attack_12
+  - first:
+      213: 1085687435019954313
+    second: Spritesheet_Patrem_Attack_13
+  - first:
+      213: 6953796871690520262
+    second: Spritesheet_Patrem_Attack_14
+  - first:
+      213: -892791416805775101
+    second: Spritesheet_Patrem_Attack_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac92e1e82632c03c0800000000000000
+      internalID: -4392096630394967606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 390
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1397535c94b186e40800000000000000
+      internalID: 5649795736191465777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 390
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032c686a081266750800000000000000
+      internalID: 6297757965357597232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 390
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d29d97861575310800000000000000
+      internalID: 1393672118857182474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 390
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba8a5131514928b0800000000000000
+      internalID: -5176534479709500751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 390
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae207382fbe14580800000000000000
+      internalID: -8844528766359163219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 390
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fbf69da3819d040800000000000000
+      internalID: 4672792729408749377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 390
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a390b88010936d780800000000000000
+      internalID: -8658670556972119750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5306979b958893b00800000000000000
+      internalID: 808827527034921013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e9db10fdd888690800000000000000
+      internalID: -7599668382241284537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a52a4ba10647ea80800000000000000
+      internalID: -8437698403872660058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a295a7b6a1bddc450800000000000000
+      internalID: 6110781175930444074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085235fdd22e70310800000000000000
+      internalID: 1371313298205779328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988287d48f2211f00800000000000000
+      internalID: 1085687435019954313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c606597969d08060800000000000000
+      internalID: 6953796871690520262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Patrem_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 0
+        width: 306
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30926c6cfea2c93f0800000000000000
+      internalID: -892791416805775101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

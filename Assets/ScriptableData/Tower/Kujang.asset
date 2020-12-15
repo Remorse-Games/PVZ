@@ -26,3 +26,4 @@ MonoBehaviour:
   upgradeCost: 10
   cooldown: 2
   spawnSfx: {fileID: 8300000, guid: 0ae6b21a0bfb8d64ebb5ff6eaeb928af, type: 3}
+  animatorController: {fileID: 9100000, guid: f4b2239b0eaabd14fae13f25f37b9f6e, type: 2}

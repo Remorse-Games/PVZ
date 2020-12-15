@@ -642,6 +642,7 @@ GameObject:
   - component: {fileID: -4415063339425920925}
   - component: {fileID: 1876429629}
   - component: {fileID: 2662597591772225446}
+  - component: {fileID: -6651768852544293515}
   m_Layer: 8
   m_Name: Tower
   m_TagString: Untagged
@@ -859,3 +860,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &-6651768852544293515
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395904234342706520}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f4b2239b0eaabd14fae13f25f37b9f6e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

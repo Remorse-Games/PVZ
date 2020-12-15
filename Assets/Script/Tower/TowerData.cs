@@ -16,6 +16,7 @@ public class TowerData : ScriptableObject
     public int upgradeCost;
     public float cooldown;
     public AudioClip spawnSfx;
+    public RuntimeAnimatorController animatorController;
     public void Init()
     {
         currAgility = agility;
