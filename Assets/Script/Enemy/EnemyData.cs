@@ -11,4 +11,5 @@ public class EnemyData : ScriptableObject
     public float speed;
     public Sprite sprite;
     public int money = 2;
+    public RuntimeAnimatorController animatorController;
 }

@@ -20,7 +20,7 @@ MonoBehaviour:
   currStrength: 1
   currMagic: 2
   currAgility: 4
-  sprite: {fileID: -8483648791439249308, guid: 4bcec8fc5f52b2d4b8d08a146bea0e1a, type: 3}
+  sprite: {fileID: -2836791107545517532, guid: 3d65040103ee35346a52395ae02e5177, type: 3}
   isRanged: 0
   projectile: {fileID: 0}
   upgradeCost: 10

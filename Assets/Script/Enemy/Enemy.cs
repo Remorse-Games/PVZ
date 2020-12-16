@@ -28,8 +28,10 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 offset;
     private EnemySpawner spawner;
+    private Animator animator;
     private void Awake()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         offset = new Vector2(UnityEngine.Random.Range(-0.1f, 0.1f), UnityEngine.Random.Range(-0.1f, 0.1f));
     }
@@ -37,6 +39,7 @@ public class Enemy : MonoBehaviour
     {
         SetData(data);
         SetPath(path);
+        animator.runtimeAnimatorController = enemyData.animatorController;
         this.spawner = spawner;
     }
     private void SetData(EnemyData data)
@@ -65,9 +68,13 @@ public class Enemy : MonoBehaviour
                 tower = FindTargetTower(path[i].direction);
                 while (tower != null)
                 {
+                    animator.SetTrigger("Attack");
+                    animator.SetBool("Attacking", true);
                     tower.TakeDamage(enemyData.strength);
                     yield return new WaitForSeconds((enemyData.agility <= 0) ? 1f : 1f / enemyData.agility);
                 }
+                animator.ResetTrigger("Attack");
+                animator.SetBool("Attacking", false);
                 ChangeDirection(path[i].direction);
                 transform.position = new Vector3(Mathf.Floor(transform.position.x + 0.5f) + offset.x, Mathf.Floor(transform.position.y + 0.5f) + offset.y, 0);
                 yield return new WaitForSeconds(1f);
