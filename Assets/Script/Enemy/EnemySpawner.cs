@@ -29,8 +29,11 @@ public class EnemySpawner : MonoBehaviour
     private Coroutine wait;
     [HideInInspector]
     public List<Enemy> enemyAlive;
+    public List<AudioClip> waveVOs;
+    private AudioSource source;
     private void Start()
     {
+        source = GetComponent<AudioSource>();
         enemyAlive = new List<Enemy>();
         if (waves.Count == 0) return; 
         nextWaveButton.SetActive(true);
@@ -69,6 +72,11 @@ public class EnemySpawner : MonoBehaviour
             {
                 if (enemyAlive.Count == 0)
                 {
+                    if (waveVOs.Count >= currentWave)
+                    {
+                        source.clip = waveVOs[currentWave - 1];
+                        source.Play();
+                    }
                     nextWaveButton.SetActive(true);
                     wait = StartCoroutine(WaitForNextWave());
                 }

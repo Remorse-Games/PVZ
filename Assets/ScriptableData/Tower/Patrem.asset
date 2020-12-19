@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a1497025dfa744585135d8c1504ea2, type: 3}
+  m_Name: Patrem
+  m_EditorClassIdentifier: 
+  maxHP: 100
+  range: 5
+  strength: 1
+  magic: 2
+  agility: 1
+  currStrength: 1
+  currMagic: 2
+  currAgility: 1
+  sprite: {fileID: -8915305049588994544, guid: 792d0ad4824bbc84f8cc16fa0c34cefe, type: 3}
+  isRanged: 1
+  projectile: {fileID: 4314025870252121414, guid: 5fd2a94ae6b9119439523bec8b1501f4,
+    type: 3}
+  upgradeCost: 10
+  cooldown: 1
+  spawnSfx: {fileID: 8300000, guid: 02db31783cf29e347aebb3ca878da63b, type: 3}

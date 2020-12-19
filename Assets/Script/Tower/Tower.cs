@@ -38,7 +38,7 @@ public class Tower : MonoBehaviour
     {
         if (towerData.currAgility > 0)
         {
-            attacking = StartCoroutine(Attacking(1f / towerData.currAgility));
+            attacking = StartCoroutine(Attacking(towerData.currAgility));
         }
     }
     private IEnumerator Attacking(float delayTime)

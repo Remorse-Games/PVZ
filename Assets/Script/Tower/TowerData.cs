@@ -14,6 +14,8 @@ public class TowerData : ScriptableObject
     public bool isRanged;
     public GameObject projectile;
     public int upgradeCost;
+    public float cooldown;
+    public AudioClip spawnSfx;
     public void Init()
     {
         currAgility = agility;

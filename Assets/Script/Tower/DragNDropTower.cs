@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
@@ -9,9 +10,32 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     private GameObject prefabDragged, prefabTower;
     private GameObject towerDragged;
     private Camera mainCamera;
-    public TowerData data;
+    public TowerData data; 
+    float cooldown = 10f;
+    public Image icon;
+    private bool canCast = true;
+    private void DisableButton()
+    {
+        canCast = false;
+        icon.fillAmount = 0f;
+    }
+    private void EnableButton()
+    {
+        canCast = true;
+    }
+    private IEnumerator Cooldown()
+    {
+        while (icon.fillAmount < 1f)
+        {
+            icon.fillAmount += Time.deltaTime / cooldown;
+            yield return null;
+        }
+        EnableButton();
+    }
     private void Start()
     {
+        icon = GetComponent<Image>();
+        cooldown = data.cooldown;
         if (prefabDragged == null)
         {
             Debug.LogWarning("Var prefabDragged is null! Assign in inspector!");
@@ -26,18 +50,26 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (!canCast)
+        {
+            return;
+        }
         towerDragged = Instantiate(prefabDragged, mainCamera.ScreenToWorldPoint(eventData.position), Quaternion.identity);
         towerDragged.GetComponent<SpriteRenderer>().sprite = data.sprite;
     }
     public void OnDrag(PointerEventData eventData)
     {
+        if (towerDragged == null) return;
         Vector3 mousePos = mainCamera.ScreenToWorldPoint(eventData.position);
         towerDragged.transform.position = new Vector3((int)Mathf.Floor(mousePos.x + 0.5f), (int)Mathf.Floor(mousePos.y + 0.5f), 0);
     }
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (towerDragged == null) return;
         GameObject tower;
         tower = Instantiate(prefabTower, towerDragged.transform.position, Quaternion.identity);
+        tower.GetComponent<AudioSource>().clip = data.spawnSfx;
+        tower.GetComponent<AudioSource>().Play();
         if (data.isRanged)
         {
             tower.AddComponent<TowerRanged>().towerData = data;
@@ -46,6 +78,8 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         {
             tower.AddComponent<TowerMelee>().towerData = data;
         }
+        DisableButton();
+        StartCoroutine(Cooldown());
         Destroy(towerDragged);
         //Destroy(transform.parent.gameObject);
     }

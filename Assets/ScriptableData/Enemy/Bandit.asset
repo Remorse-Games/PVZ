@@ -17,5 +17,6 @@ MonoBehaviour:
   strength: 1
   magic: 0
   agility: 1
+  speed: 1
   sprite: {fileID: 9102478189577636612, guid: 17b6aef831288e347a54d2663f7b82b9, type: 3}
   money: 2
