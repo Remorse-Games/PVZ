@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2a1497025dfa744585135d8c1504ea2, type: 3}
   m_Name: Patrem
   m_EditorClassIdentifier: 
-  maxHP: 10
-  range: 1.5
-  strength: 1
-  magic: 2
-  agility: 4
-  currStrength: 1
-  currMagic: 2
-  currAgility: 4
+  maxHP: 100
+  range: 1
+  strength: 9
+  magic: 0
+  agility: 1
+  currStrength: 9
+  currMagic: 0
+  currAgility: 1
   sprite: {fileID: -2836791107545517532, guid: 3d65040103ee35346a52395ae02e5177, type: 3}
   isRanged: 0
   projectile: {fileID: 0}
   upgradeCost: 10
-  cooldown: 2
-  spawnSfx: {fileID: 8300000, guid: 02db31783cf29e347aebb3ca878da63b, type: 3}
+  cooldown: 12
+  spawnSfx: {fileID: 8300000, guid: 482a18d0f3b64b241bd35a85c03ff671, type: 3}
   animatorController: {fileID: 9100000, guid: 87c6cc107378dc545ba2aac6e31f8a8d, type: 2}

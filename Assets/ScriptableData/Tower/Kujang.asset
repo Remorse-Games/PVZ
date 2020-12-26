@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2a1497025dfa744585135d8c1504ea2, type: 3}
   m_Name: Kujang
   m_EditorClassIdentifier: 
-  maxHP: 10
-  range: 1.5
-  strength: 1
-  magic: 2
-  agility: 4
-  currStrength: 1
-  currMagic: 2
-  currAgility: 4
+  maxHP: 130
+  range: 1
+  strength: 20
+  magic: 0
+  agility: 2
+  currStrength: 20
+  currMagic: 0
+  currAgility: 2
   sprite: {fileID: -7711734814022111706, guid: 993484d7c3edf3a49b31f17f481be1af, type: 3}
   isRanged: 0
   projectile: {fileID: 0}
   upgradeCost: 10
-  cooldown: 2
-  spawnSfx: {fileID: 8300000, guid: 0ae6b21a0bfb8d64ebb5ff6eaeb928af, type: 3}
+  cooldown: 18
+  spawnSfx: {fileID: 8300000, guid: e843a50b11232c348970c213b4eefd59, type: 3}
   animatorController: {fileID: 9100000, guid: f4b2239b0eaabd14fae13f25f37b9f6e, type: 2}
