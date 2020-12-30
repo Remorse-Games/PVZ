@@ -17,6 +17,7 @@ MonoBehaviour:
   strength: 1
   magic: 2
   agility: 1
+  price: 60
   currStrength: 1
   currMagic: 2
   currAgility: 1

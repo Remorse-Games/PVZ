@@ -7,7 +7,7 @@ public class TowerData : ScriptableObject
 {
     public int maxHP = 100;
     public float range = 1;
-    public int strength, magic, agility = 1;
+    public int strength, magic, agility = 1, price;
     [HideInInspector]
     public int currStrength, currMagic, currAgility;
     public Sprite sprite;

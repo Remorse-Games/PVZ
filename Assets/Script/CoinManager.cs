@@ -7,6 +7,7 @@ public class CoinManager : MonoBehaviour
 {
     public static CoinManager instance;
     private int coin = 0;
+    public int startingCoin = 200;
     public Text coinText;
     private void Awake()
     {
@@ -14,7 +15,7 @@ public class CoinManager : MonoBehaviour
     }
     private void Start()
     {
-        UpdateCoin();
+        Earn(startingCoin);
     }
     public int GetCoinAmount()
     {

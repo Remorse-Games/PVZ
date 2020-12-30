@@ -144,6 +144,10 @@ public class Enemy : MonoBehaviour
     private void OnDead()
     {
         CoinManager.instance.Earn(enemyData.money);
+        RemoveUnit();
+    }
+    public void RemoveUnit()
+    {
         spawner.RemoveEnemy(this);
         Destroy(gameObject);
     }
