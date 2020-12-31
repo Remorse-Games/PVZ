@@ -66,11 +66,13 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     public void OnEndDrag(PointerEventData eventData)
     {
         if (towerDragged == null) return;
+        Vector3 towerPos = towerDragged.transform.position;
         Destroy(towerDragged);
         if (!CoinManager.instance.CanPurchase(data.price)) return;
+        if (!FixedPositionManager.instance.CanPlace(new Vector2Int((int)towerPos.x, (int)towerPos.y))) return;
         CoinManager.instance.Purchase(data.price);
         GameObject tower;
-        tower = Instantiate(prefabTower, towerDragged.transform.position, Quaternion.identity);
+        tower = Instantiate(prefabTower, towerPos, Quaternion.identity);
         tower.GetComponent<AudioSource>().clip = data.spawnSfx;
         tower.GetComponent<AudioSource>().Play();
         if (data.isRanged)
@@ -81,6 +83,7 @@ public class DragNDropTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         {
             tower.AddComponent<TowerMelee>().towerData = data;
         }
+        FixedPositionManager.instance.Place(new Vector2Int((int)towerPos.x, (int)towerPos.y));
         DisableButton();
         StartCoroutine(Cooldown());
         //Destroy(transform.parent.gameObject);

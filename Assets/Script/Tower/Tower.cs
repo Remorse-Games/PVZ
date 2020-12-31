@@ -68,6 +68,7 @@ public class Tower : MonoBehaviour
         if (currHP <= 0)
         {
             //ded
+            FixedPositionManager.instance.Remove(new Vector2Int((int)transform.position.x, (int)transform.position.y));
             Destroy(gameObject);
         }
     }
