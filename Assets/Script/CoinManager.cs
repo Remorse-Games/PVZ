@@ -37,6 +37,6 @@ public class CoinManager : MonoBehaviour
     }
     public void UpdateCoin()
     {
-        coinText.text = coin.ToString() + " gold";
+        coinText.text = coin.ToString();
     }
 }

@@ -309,18 +309,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483151570}
   m_CullTransparentMesh: 0
---- !u!114 &598837012 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8532858722900233196, guid: 475677ea3293aaf4eacdf4c6a86a3750,
-    type: 3}
-  m_PrefabInstance: {fileID: 8532858722391575800}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &660337377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2716,7 +2704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99aeb7d1f5d80084ea45966ee267c4ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 598837012}
+  startingCoin: 200
+  coinText: {fileID: 8532858722391575801}
 --- !u!4 &1069261667
 Transform:
   m_ObjectHideFlags: 0
@@ -2743,12 +2732,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bf7864a92e8b3345876989395ee4aff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1279011913 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8532858723394281649, guid: 475677ea3293aaf4eacdf4c6a86a3750,
-    type: 3}
-  m_PrefabInstance: {fileID: 8532858722391575800}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1795862879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6807822245263303879, guid: 12d411a767afa7e4bafabb823390a73e,
@@ -3203,7 +3186,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextWaveButton
       value: 
-      objectReference: {fileID: 1279011913}
+      objectReference: {fileID: 0}
     - target: {fileID: 6807822245263303878, guid: 12d411a767afa7e4bafabb823390a73e,
         type: 3}
       propertyPath: waveVOs.Array.data[0]
@@ -3692,6 +3675,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6065172504154193732, guid: 475677ea3293aaf4eacdf4c6a86a3750,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1115275059}
+    - target: {fileID: 6065172504154193732, guid: 475677ea3293aaf4eacdf4c6a86a3750,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ForceNextWave
+      objectReference: {fileID: 0}
     - target: {fileID: 8532858723394281651, guid: 475677ea3293aaf4eacdf4c6a86a3750,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3829,3 +3822,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 475677ea3293aaf4eacdf4c6a86a3750, type: 3}
+--- !u!114 &8532858722391575801 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4188408152665892712, guid: 475677ea3293aaf4eacdf4c6a86a3750,
+    type: 3}
+  m_PrefabInstance: {fileID: 8532858722391575800}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
