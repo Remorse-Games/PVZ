@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Enemy_Gun_2
   m_EditorClassIdentifier: 
   maxHP: 50
-  range: 0
+  range: 5
   strength: 17
   magic: 0
   agility: 1
   speed: 1
-  sprite: {fileID: -5537890971925328845, guid: 9b77e7d6129ea2e40b752497863b37ab, type: 3}
+  sprite: {fileID: -331170243701487394, guid: ba28626227dab684ea1bc9673bb9bad6, type: 3}
   money: 50
-  animatorController: {fileID: 9100000, guid: c720d4d0c33b79946bc0e68cfb5572a8, type: 2}
+  animatorController: {fileID: 9100000, guid: fbf23724cce662b498192dfee111e33f, type: 2}
   isMelee: 0
