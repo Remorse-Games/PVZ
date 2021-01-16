@@ -97,6 +97,16 @@ public class EnemySpawner : MonoBehaviour
             for (int j = 0; j < enemies[i].amount; j++)
             {
                 Enemy enemy = Instantiate(enemyPrefab, transform.position, Quaternion.identity).GetComponent<Enemy>();
+                if (!enemies[i].enemyData.isMelee)
+                {
+                    EnemyRanged ranged = enemy.gameObject.AddComponent<EnemyRanged>();
+                    ranged.range = enemies[i].enemyData.range;
+                    ranged.towerMask = enemy.towerMask;
+                    ranged.sliderHP = enemy.sliderHP;
+                    Destroy(enemy);
+                    enemy = ranged;
+                }
+                enemy.GetComponent<Animator>().runtimeAnimatorController = enemies[i].enemyData.animatorController;
                 enemyAlive.Add(enemy);
                 enemy.SetEnemy(enemies[i].enemyData, enemies[i].path, this);
                 if (j < enemies[i].amount - 1)

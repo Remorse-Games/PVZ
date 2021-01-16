@@ -84,10 +84,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1217608820227958975}
   - component: {fileID: 1217608820227958972}
-  - component: {fileID: 2921350228144802593}
   - component: {fileID: 1217608820227958973}
   - component: {fileID: 1217608820227959106}
   - component: {fileID: -2207187333745009648}
+  - component: {fileID: 2550337998413694663}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
@@ -160,23 +160,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2921350228144802593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1217608820227959107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85ceadc754f867644a450a0c29739436, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  towerMask:
-    serializedVersion: 2
-    m_Bits: 256
-  enemyData: {fileID: 11400000, guid: 42d6c45d12e4e71468b324cb5f24c872, type: 2}
-  sliderHP: {fileID: 7148667444820614257}
 --- !u!50 &1217608820227958973
 Rigidbody2D:
   serializedVersion: 4
@@ -243,6 +226,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2550337998413694663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217608820227959107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799899dd14f55894fb71019c9fd3b6e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  enemyData: {fileID: 11400000, guid: 42d6c45d12e4e71468b324cb5f24c872, type: 2}
+  sliderHP: {fileID: 7148667444820614257}
 --- !u!1 &5822274718137091361
 GameObject:
   m_ObjectHideFlags: 0

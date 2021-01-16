@@ -21,3 +21,4 @@ MonoBehaviour:
   sprite: {fileID: -5537890971925328845, guid: 9b77e7d6129ea2e40b752497863b37ab, type: 3}
   money: 50
   animatorController: {fileID: 9100000, guid: 90696be175bd171469d7c563fa213f50, type: 2}
+  isMelee: 1

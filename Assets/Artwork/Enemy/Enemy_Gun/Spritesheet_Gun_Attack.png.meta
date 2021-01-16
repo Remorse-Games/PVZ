@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: 6bfa50463c7e1f943989c729416844af
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2513802541045742133
+    second: Spritesheet_Gun_Attack_0
+  - first:
+      213: -7968551532878188689
+    second: Spritesheet_Gun_Attack_1
+  - first:
+      213: 6007695045191039458
+    second: Spritesheet_Gun_Attack_2
+  - first:
+      213: 786829879566564642
+    second: Spritesheet_Gun_Attack_3
+  - first:
+      213: -6325170258818437409
+    second: Spritesheet_Gun_Attack_4
+  - first:
+      213: 7311266512301145155
+    second: Spritesheet_Gun_Attack_5
+  - first:
+      213: 6513292440617217934
+    second: Spritesheet_Gun_Attack_6
+  - first:
+      213: -2142899536717627053
+    second: Spritesheet_Gun_Attack_7
+  - first:
+      213: 8349210045410754961
+    second: Spritesheet_Gun_Attack_8
+  - first:
+      213: 4013418286856738007
+    second: Spritesheet_Gun_Attack_9
+  - first:
+      213: -573008360499214173
+    second: Spritesheet_Gun_Attack_10
+  - first:
+      213: 1061675785886889420
+    second: Spritesheet_Gun_Attack_11
+  - first:
+      213: 4180818952156997488
+    second: Spritesheet_Gun_Attack_12
+  - first:
+      213: -8029853053570550703
+    second: Spritesheet_Gun_Attack_13
+  - first:
+      213: 5465722684295598216
+    second: Spritesheet_Gun_Attack_14
+  - first:
+      213: 2385323589513900989
+    second: Spritesheet_Gun_Attack_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,12 +88,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 240
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,9 +131,336 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 235
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a7186a712d2e220800000000000000
+      internalID: 2513802541045742133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 235
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fa66c99940a6190800000000000000
+      internalID: -7968551532878188689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 235
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e97c7f30de9f5350800000000000000
+      internalID: 6007695045191039458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 235
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d7a3e4b916bea00800000000000000
+      internalID: 786829879566564642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 235
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdee24b692b7838a0800000000000000
+      internalID: -6325170258818437409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 235
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c3bebf726d67560800000000000000
+      internalID: 7311266512301145155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 235
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fe93147fcd36a50800000000000000
+      internalID: 6513292440617217934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 235
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351c8949934e242e0800000000000000
+      internalID: -2142899536717627053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191c4dfdc4a5ed370800000000000000
+      internalID: 8349210045410754961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4172bfaa682b730800000000000000
+      internalID: 4013418286856738007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a88d1b9ee34c08f0800000000000000
+      internalID: -573008360499214173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5fb649084dbbe00800000000000000
+      internalID: 1061675785886889420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077e981afa0450a30800000000000000
+      internalID: 4180818952156997488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1547757113b309090800000000000000
+      internalID: -8029853053570550703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Gun_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 192
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880db3e92d52adb40800000000000000
+      internalID: 5465722684295598216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -12,4 +12,5 @@ public class EnemyData : ScriptableObject
     public Sprite sprite;
     public int money = 2;
     public RuntimeAnimatorController animatorController;
+    public bool isMelee;
 }
