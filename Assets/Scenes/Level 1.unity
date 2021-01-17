@@ -3186,7 +3186,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextWaveButton
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8532858722391575802}
     - target: {fileID: 6807822245263303878, guid: 12d411a767afa7e4bafabb823390a73e,
         type: 3}
       propertyPath: waveVOs.Array.data[0]
@@ -3834,3 +3834,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &8532858722391575802 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4957040404117735698, guid: 475677ea3293aaf4eacdf4c6a86a3750,
+    type: 3}
+  m_PrefabInstance: {fileID: 8532858722391575800}
+  m_PrefabAsset: {fileID: 0}
