@@ -77,6 +77,7 @@ public class EnemySpawner : MonoBehaviour
                         source.clip = waveVOs[currentWave - 1];
                         source.Play();
                     }
+                    WinLoseManager.instance.NextWave();
                     nextWaveButton.SetActive(true);
                     wait = StartCoroutine(WaitForNextWave());
                 }
