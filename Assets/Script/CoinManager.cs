@@ -6,16 +6,19 @@ using UnityEngine.UI;
 public class CoinManager : MonoBehaviour
 {
     public static CoinManager instance;
-    private int coin = 0;
+    private int coin = 0, score = 0;
     public int startingCoin = 200;
-    public Text coinText;
+    public Text coinText, scoreText, endScoreText;
     private void Awake()
     {
         instance = this;
     }
     private void Start()
     {
-        Earn(startingCoin);
+        coin = startingCoin;
+        UpdateCoin();
+        score = 0;
+        UpdateScore();
     }
     public int GetCoinAmount()
     {
@@ -34,9 +37,16 @@ public class CoinManager : MonoBehaviour
     {
         coin += amount;
         UpdateCoin();
+        score += 500;
+        UpdateScore();
     }
     public void UpdateCoin()
     {
         coinText.text = coin.ToString();
+    }
+    public void UpdateScore()
+    {
+        endScoreText.text = score.ToString();
+        scoreText.text = score.ToString();
     }
 }

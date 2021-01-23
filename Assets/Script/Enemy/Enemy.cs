@@ -28,6 +28,7 @@ public class Enemy : MonoBehaviour
     private Vector2 offset;
     private EnemySpawner spawner;
     private Animator animator;
+    private Tower towerTarget;
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -58,19 +59,22 @@ public class Enemy : MonoBehaviour
     {
         int length;
         length = path.Count;
-        Tower tower;
         for (int i = 0; i < length; i++)
         {
             for (int j = 0; j < path[i].length; j++)
             {
                 rb.velocity = Vector2.zero;
-                tower = FindTargetTower(path[i].direction);
-                while (tower != null)
+                towerTarget = FindTargetTower(path[i].direction);
+                if (towerTarget != null && towerTarget.enemyCount <= 2)
                 {
-                    animator.SetTrigger("Attack");
-                    animator.SetBool("Attacking", true);
-                    tower.TakeDamage(enemyData.strength);
-                    yield return new WaitForSeconds((enemyData.agility <= 0) ? 1f : 1f / enemyData.agility);
+                    towerTarget.enemyCount++;
+                    while (towerTarget != null)
+                    {
+                        animator.SetTrigger("Attack");
+                        animator.SetBool("Attacking", true);
+                        towerTarget.TakeDamage(enemyData.strength);
+                        yield return new WaitForSeconds((enemyData.agility <= 0) ? 1f : 1f / enemyData.agility);
+                    }
                 }
                 animator.ResetTrigger("Attack");
                 animator.SetBool("Attacking", false);
@@ -120,6 +124,7 @@ public class Enemy : MonoBehaviour
     }
     public void RemoveUnit()
     {
+        if (towerTarget != null) towerTarget.enemyCount--;
         spawner.RemoveEnemy(this);
         Destroy(gameObject);
     }

@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 public class Tower : MonoBehaviour
 {
     public TowerData towerData;
+    public int enemyCount = 0;
     private Button button;
     private Slider sliderHP;
     private TargetFinder targetFinder;

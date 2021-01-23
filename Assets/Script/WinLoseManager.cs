@@ -10,6 +10,7 @@ public class WinLoseManager : MonoBehaviour
     private int maxWave;
     public Text hpText, waveText;
     public static WinLoseManager instance;
+    public GameObject endScreen;
     private void Awake()
     {
         instance = this;
@@ -59,6 +60,10 @@ public class WinLoseManager : MonoBehaviour
     }
     private void Win()
     {
-        SceneManager.LoadScene(nextSceneIdx);
+        endScreen.SetActive(true);
+    }
+    public void OpenScene(int index)
+    {
+        SceneManager.LoadScene(index);
     }
 }
