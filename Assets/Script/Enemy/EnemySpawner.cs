@@ -38,6 +38,7 @@ public class EnemySpawner : MonoBehaviour
         if (waves.Count == 0) return; 
         nextWaveButton.SetActive(true);
         wait = StartCoroutine(WaitForNextWave());
+        WinLoseManager.instance.SetMaxWave(waves.Count - 1);
     }
     private void StartWave(int waveIndex)
     {
